@@ -1,0 +1,118 @@
+/* ===== Root Theme ===== */
+.root {
+    -fx-font-family: "Segoe UI", "Roboto", sans-serif;
+    -fx-background-color: linear-gradient(to bottom right, #f9f9f9, #e6f0ff);
+    -fx-text-fill: #333333;
+}
+
+/* ===== TabPane Styling ===== */
+.tab-pane {
+    -fx-background-color: transparent;
+}
+
+.tab-header-area {
+    -fx-background-color: #ffffff;
+    -fx-padding: 6px;
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 0 0 1px 0;
+}
+
+.tab {
+    -fx-background-color: #f4f7fb;
+    -fx-text-fill: #333;
+    -fx-background-radius: 6px;
+    -fx-padding: 6px 12px;
+}
+
+.tab:selected {
+    -fx-background-color: linear-gradient(to right, #56ccf2, #2f80ed);
+    -fx-text-fill: white;
+}
+
+/* ===== Buttons ===== */
+.button {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #2f80ed;
+    -fx-font-weight: bold;
+    -fx-background-radius: 10px;
+    -fx-padding: 8px 16px;
+    -fx-cursor: hand;
+    -fx-border-color: #cfd9df;
+    -fx-border-width: 1px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 6, 0, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(to right, #56ccf2, #2f80ed);
+    -fx-text-fill: white;
+    -fx-scale-x: 1.03;
+    -fx-scale-y: 1.03;
+}
+
+.button:pressed {
+    -fx-background-color: #d9e4f5;
+    -fx-scale-x: 0.97;
+    -fx-scale-y: 0.97;
+}
+
+/* ===== Labels ===== */
+.label {
+    -fx-text-fill: #333333;
+    -fx-font-size: 14px;
+}
+
+.label-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+/* ===== Chart Styling ===== */
+.chart {
+    -fx-background-color: #ffffff;
+    -fx-padding: 12px;
+    -fx-border-radius: 12px;
+    -fx-background-radius: 12px;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.1), 10, 0, 0, 5);
+}
+
+.chart-legend {
+    -fx-background-color: transparent;
+    -fx-text-fill: #444;
+    -fx-font-size: 12px;
+}
+
+.chart-plot-background {
+    -fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines,
+.chart-horizontal-grid-lines {
+    -fx-stroke: rgba(0, 0, 0, 0.1);
+}
+
+.default-color0.chart-series-line { -fx-stroke: #2f80ed; }
+.default-color1.chart-series-line { -fx-stroke: #27ae60; }
+.default-color2.chart-series-line { -fx-stroke: #9b51e0; }
+.default-color3.chart-series-line { -fx-stroke: #f2994a; }
+.default-color4.chart-series-line { -fx-stroke: #eb5757; }
+
+/* ===== ScrollPane ===== */
+.scroll-pane {
+    -fx-background: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-pane .viewport {
+    -fx-background-color: transparent;
+}
+
+/* ===== Status Bar ===== */
+.status-bar {
+    -fx-background-color: #ffffff;
+    -fx-padding: 6px 12px;
+    -fx-font-size: 12px;
+    -fx-text-fill: #555;
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 1px 0 0 0;
+}
